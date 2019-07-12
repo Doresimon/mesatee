@@ -54,8 +54,8 @@ kms  = { listen_ip = "0.0.0.0", connect_ip = "127.0.0.1", port = 6016 }
 # connect to Intel® Attestation Service (IAS).
 # This is a required section.
 [ias_client_config]
-spid = { path = "bin/ias_spid.txt" }
-key = { path = "bin/ias_key.txt" }
+spid = { path = "cert/spid.txt" }
+key = { path = "cert/key.txt" }
 
 
 # This section configures the auditors.
