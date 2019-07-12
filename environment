@@ -1,5 +1,5 @@
 export SGX_MODE=HW
-[ -z "${SGX_SDK}" ] && export SGX_SDK=/opt/sgxsdk
+[ -z "${SGX_SDK}" ] && export SGX_SDK=/opt/intel/sgxsdk
 . $SGX_SDK/environment
 
 export MESATEE_PROJECT_ROOT=`pwd`
